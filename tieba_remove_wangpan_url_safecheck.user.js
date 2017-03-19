@@ -7,12 +7,12 @@
 // @author        Abby Pan (abbypan@gmail.com)
 // @description   移除百度贴吧中百度云链接safecheck跳转  
 // @copyright     2017, Abby Pan (http://abbypan.github.com/) 
-// @grant         GM_xmlhttpRequest
-// @include       /https?\:\/\/tieba\.baidu\.com\/.*/
-// @resource      jquery http://code.jquery.com/jquery-latest.js
+// @include       http://tieba.baidu.com/*
+// @include       https://tieba.baidu.com/*
 // ==/UserScript==
 //
 // --------------------------------------------------------------------
+// @resource      jquery http://code.jquery.com/jquery-latest.js
 
 var path = '//a';
 
